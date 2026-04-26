@@ -1,0 +1,139 @@
+@keyframes expandIn {
+  from {
+    opacity: 0;
+    transform: scaleY(0.92);
+    transform-origin: top;
+  }
+  to {
+    opacity: 1;
+    transform: scaleY(1);
+  }
+}
+
+:host {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-column: 1 / -1;
+  border: 1.5px solid var(--accent);
+  border-radius: 12px;
+  background: #00e5ff08;
+  overflow: hidden;
+  animation: expandIn 0.2s ease;
+}
+
+.fighter-detail__image-col {
+  border-right: 1px solid var(--accent);
+}
+
+.fighter-detail__image {
+  width: 100%;
+  height: 100%;
+  min-height: 180px;
+  overflow: hidden;
+}
+
+.fighter-detail__info {
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fighter-detail__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.fighter-detail__name {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.fighter-detail__tag {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--accent);
+  background: var(--accent-bg);
+  border: 1px solid var(--accent);
+  border-radius: 3px;
+  padding: 3px 8px;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+.fighter-detail__bio {
+  font-size: 15px;
+  color: #888;
+  line-height: 1.6;
+}
+
+.fighter-detail__stats {
+  display: flex;
+  gap: 8px;
+}
+
+.fighter-detail__stat {
+  flex: 1;
+  background: #0d1f1f;
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  padding: 8px 6px 6px;
+  text-align: center;
+}
+
+.fighter-detail__stat-value {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--accent);
+  line-height: 1;
+}
+
+.fighter-detail__stat-bar-wrap {
+  height: 3px;
+  background: #1a2a2a;
+  border-radius: 2px;
+  margin: 5px 0 4px;
+  overflow: hidden;
+}
+
+.fighter-detail__stat-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 2px;
+  transition: width 0.5s ease;
+}
+
+.fighter-detail__stat-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  color: #4a7a7a;
+  letter-spacing: 1px;
+}
+
+.fighter-detail__close {
+  background: none;
+  border: 1px solid var(--border2);
+  color: var(--muted);
+  border-radius: 5px;
+  padding: 4px 10px;
+  cursor: pointer;
+  font-family: var(--mono);
+  font-size: 11px;
+  transition: all 0.15s;
+  align-self: flex-start;
+
+  &:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+}

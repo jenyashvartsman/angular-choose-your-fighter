@@ -1,0 +1,35 @@
+<div class="fighter-detail__image-col">
+  <div class="fighter-detail__image" aria-hidden="true">
+    <div class="ph">
+      <span class="ph__label">{{ fighter().name }}<br />portrait</span>
+    </div>
+  </div>
+</div>
+
+<div class="fighter-detail__info">
+  <div class="fighter-detail__header">
+    <h2 class="fighter-detail__name">{{ fighter().name }}</h2>
+    <span class="fighter-detail__tag">{{ fighter().title }}</span>
+  </div>
+
+  <p class="fighter-detail__bio">{{ fighter().description }}</p>
+
+  <div class="fighter-detail__stats" role="list" aria-label="Fighter stats">
+    @for (stat of stats(); track stat.label) {
+      <div class="fighter-detail__stat" role="listitem">
+        <div class="fighter-detail__stat-value">{{ stat.value }}</div>
+        <div class="fighter-detail__stat-bar-wrap" aria-hidden="true">
+          <div
+            class="fighter-detail__stat-bar"
+            [style.width.%]="stat.value * 10"
+          ></div>
+        </div>
+        <div class="fighter-detail__stat-label">{{ stat.label }}</div>
+      </div>
+    }
+  </div>
+
+  <button class="fighter-detail__close" (click)="close.emit()" aria-label="Dismiss fighter detail">
+    ✕ dismiss
+  </button>
+</div>

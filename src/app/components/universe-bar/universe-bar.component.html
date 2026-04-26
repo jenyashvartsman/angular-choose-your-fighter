@@ -1,0 +1,15 @@
+<nav class="universe-bar" aria-label="Universe selection">
+  <span class="universe-bar__brand" aria-hidden="true">⚔ Fighter</span>
+
+  @for (universe of store.universes(); track universe.id) {
+    <button
+      class="universe-bar__tab"
+      [class.universe-bar__tab--selected]="store.universeId() === universe.id"
+      [attr.aria-pressed]="store.universeId() === universe.id"
+      (click)="store.selectUniverse(universe.id)"
+    >
+      <span class="universe-bar__tab-dot" aria-hidden="true"></span>
+      {{ universe.title }}
+    </button>
+  }
+</nav>

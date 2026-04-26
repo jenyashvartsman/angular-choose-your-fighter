@@ -1,0 +1,42 @@
+<div class="fighter-panel">
+  <div class="fighter-panel__header">
+    <span class="fighter-panel__step" [class.fighter-panel__step--active]="store.typeId()">03</span>
+    <span
+      class="fighter-panel__title"
+      [class.fighter-panel__title--active]="store.typeId()"
+    >Fighter</span>
+    <nav class="fighter-panel__breadcrumb" aria-label="Selection path">
+      <span class="fighter-panel__bc-val">{{ store.selectedUniverse()?.title ?? '—' }}</span>
+      <span class="fighter-panel__bc-sep" aria-hidden="true">›</span>
+      <span class="fighter-panel__bc-val">{{ store.selectedType()?.title ?? '—' }}</span>
+      <span class="fighter-panel__bc-sep" aria-hidden="true">›</span>
+      <span class="fighter-panel__bc-val fighter-panel__bc-val--active">
+        {{ store.selectedFighter()?.name ?? '—' }}
+      </span>
+    </nav>
+  </div>
+
+  <div class="fighter-panel__scroll">
+    @if (!store.typeId()) {
+      <div class="fighter-panel__locked" aria-live="polite">
+        <span class="fighter-panel__locked-icon" aria-hidden="true">⚔</span>
+        <p>{{ store.universeId() ? 'select a type' : 'select a universe to begin' }}</p>
+      </div>
+    } @else {
+      <div class="fighter-panel__grid">
+        @for (fighter of store.availableFighters(); track fighter.id) {
+          <app-fighter-card
+            [fighter]="fighter"
+            [selected]="store.fighterId() === fighter.id"
+            (select)="store.selectFighter(fighter.id)"
+          />
+        }
+        @if (store.selectedFighter(); as fighter) {
+          <app-fighter-detail [fighter]="fighter" (close)="store.selectFighter(null)" />
+        }
+      </div>
+    }
+  </div>
+
+  <app-cta-bar />
+</div>
