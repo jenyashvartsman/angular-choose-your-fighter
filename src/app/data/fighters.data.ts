@@ -9,30 +9,36 @@ export const fightersData: UniverseDto[] = [
         id: 'space-marine',
         title: 'Space Marine',
         subtitle: 'Adeptus Astartes',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/1stEditionSpaceMarine.png/250px-1stEditionSpaceMarine.png',
+        imageUrl:
+          'https://static.wikia.nocookie.net/warhammer40k/images/5/53/UltramarinesWarrior2.JPG/revision/latest?cb=20130918083105',
         fighters: [
           {
             id: 'ultramarines-captain',
             name: 'Ultramarines Captain',
             title: '1st Company',
-            description: 'Battle-hardened veteran of a hundred campaigns. Leads with tactical genius and unyielding courage.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/c/cd/1stEditionSpaceMarine.png/250px-1stEditionSpaceMarine.png',
+            description:
+              'Battle-hardened veteran of a hundred campaigns. Leads with tactical genius and unyielding courage.',
+            imageUrl: 'https://i.pinimg.com/564x/7e/24/f0/7e24f0573ac2d23502289ea112f59111.jpg',
             stats: { strength: 9, agility: 6, power: 8 },
           },
           {
             id: 'blood-angels-dread',
             name: 'Blood Angels Dread',
             title: 'Death Company',
-            description: 'Consumed by the Black Rage, a walking engine of destruction entombed in ceramite and primal fury.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/3c/Space_Marine_Limited_Edition_2.jpg/250px-Space_Marine_Limited_Edition_2.jpg',
+            description:
+              'Consumed by the Black Rage, a walking engine of destruction entombed in ceramite and primal fury.',
+            imageUrl:
+              'https://static.wikia.nocookie.net/warhammer40k/images/e/ed/FuriosoDreadnought01.jpg/revision/latest?cb=20121010183019',
             stats: { strength: 10, agility: 4, power: 9 },
           },
           {
             id: 'grey-knight',
             name: 'Grey Knight',
             title: 'Brotherhood',
-            description: 'Psychic warrior clad in Aegis armour. Trained since birth to wage war in the mind as much as the field.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/0/01/SpaceHulkTerminator.jpg',
+            description:
+              'Psychic warrior clad in Aegis armour. Trained since birth to wage war in the mind as much as the field.',
+            imageUrl:
+              'https://i.redd.it/lore-question-why-are-the-grey-knights-the-ones-that-must-v0-4lu20u7og5ag1.jpg?width=555&format=pjpg&auto=webp&s=e000c9cbe0327728418ca36b6744b5d2ca3c29b5',
             stats: { strength: 8, agility: 7, power: 10 },
           },
         ],
@@ -41,22 +47,27 @@ export const fightersData: UniverseDto[] = [
         id: 'chaos-warrior',
         title: 'Chaos Warrior',
         subtitle: 'Traitor Legion',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/17/WH40K_Chaos_Space_Marine.jpg/250px-WH40K_Chaos_Space_Marine.jpg',
+        imageUrl:
+          'https://31.media.tumblr.com/0316998e1149d899462a950aedfa2331/tumblr_mwqsxoo3mk1so4uslo1_1280.jpg',
         fighters: [
           {
             id: 'abaddon-the-despoiler',
             name: 'Abaddon the Despoiler',
             title: 'Warmaster of Chaos',
-            description: "Chosen of all four Chaos Gods. His axe Drach'nyen devours souls. Thirteen Black Crusades. Undefeated.",
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/17/WH40K_Chaos_Space_Marine.jpg/250px-WH40K_Chaos_Space_Marine.jpg',
+            description:
+              "Chosen of all four Chaos Gods. His axe Drach'nyen devours souls. Thirteen Black Crusades. Undefeated.",
+            imageUrl:
+              'https://preview.redd.it/abaddon-the-despoiler-by-israel-llona-v0-4d651p6hwq4c1.jpg?width=640&crop=smart&auto=webp&s=eccf75d3961512b7cbc44927b3dcca84d01fb7cf',
             stats: { strength: 10, agility: 5, power: 10 },
           },
           {
             id: 'khorne-berzerker',
             name: 'Khorne Berzerker',
             title: 'World Eaters Legion',
-            description: 'Frenzied melee killer who charges without fear or hesitation. Blood for the Blood God.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/17/WH40K_Chaos_Space_Marine.jpg/250px-WH40K_Chaos_Space_Marine.jpg',
+            description:
+              'Frenzied melee killer who charges without fear or hesitation. Blood for the Blood God.',
+            imageUrl:
+              'https://wh40k.lexicanum.com/mediawiki/images/thumb/d/d5/WEArt10th.jpg/220px-WEArt10th.jpg',
             stats: { strength: 10, agility: 8, power: 7 },
           },
         ],
@@ -65,38 +76,46 @@ export const fightersData: UniverseDto[] = [
         id: 'eldar',
         title: 'Eldar',
         subtitle: 'Craftworld',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/WH40K_Eldar_Guardian.jpg/250px-WH40K_Eldar_Guardian.jpg',
+        imageUrl:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaNFJMGdE1v4mGVSdNjXvY9SoF6ToNRY2JdA&s',
         fighters: [
           {
             id: 'farseer',
             name: 'Farseer',
             title: 'Craftworld Ulthwé',
-            description: 'Sees ten thousand futures simultaneously. Commands battle with prescience no enemy can outmanoeuvre.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/WH40K_Eldar_Guardian.jpg/250px-WH40K_Eldar_Guardian.jpg',
+            description:
+              'Sees ten thousand futures simultaneously. Commands battle with prescience no enemy can outmanoeuvre.',
+            imageUrl:
+              'https://wh40k.lexicanum.com/mediawiki/images/thumb/9/9d/Farseer6.jpg/275px-Farseer6.jpg',
             stats: { strength: 5, agility: 9, power: 10 },
           },
           {
             id: 'howling-banshee',
             name: 'Howling Banshee',
             title: 'Aspect Warrior',
-            description: 'Blade speed that blurs sight. Her war-cry paralyses enemies with terror before the first cut lands.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/1/1e/WH40K_Eldar_Guardian.jpg/250px-WH40K_Eldar_Guardian.jpg',
+            description:
+              'Blade speed that blurs sight. Her war-cry paralyses enemies with terror before the first cut lands.',
+            imageUrl:
+              'https://static.wikia.nocookie.net/dark-heresy-rp/images/8/85/Banshees_Combat.png/revision/latest?cb=20181016010648',
             stats: { strength: 6, agility: 10, power: 7 },
           },
         ],
       },
       {
-        id: 'ork-warboss',
-        title: 'Ork Warboss',
+        id: 'orks',
+        title: 'Orks',
         subtitle: 'WAAAGH!',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/de/WH40K_Ork_Boy.png/250px-WH40K_Ork_Boy.png',
+        imageUrl:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5znn7509-D-Y5Fma2Wyk5n4Mc1g8XnYxVfg&s',
         fighters: [
           {
             id: 'ghazghkull-thraka',
             name: 'Ghazghkull Thraka',
             title: 'Prophet of Gork & Mork',
-            description: "The biggest, the baddest Ork alive. His WAAAGH! spans star systems. Krumped a Primarch. Satisfied? Never.",
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/de/WH40K_Ork_Boy.png/250px-WH40K_Ork_Boy.png',
+            description:
+              'The biggest, the baddest Ork alive. His WAAAGH! spans star systems. Krumped a Primarch. Satisfied? Never.',
+            imageUrl:
+              'https://cdn.shopify.com/s/files/1/0585/7119/4575/files/ghazghkull-mag-uruk-thraka-by-israel-llona-v0-49toooluaa4c1_480x480.webp?v=1714502397',
             stats: { strength: 10, agility: 4, power: 9 },
           },
         ],
@@ -111,21 +130,25 @@ export const fightersData: UniverseDto[] = [
         id: 'jedi',
         title: 'Jedi',
         subtitle: 'Guardians of Peace',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Ben_Kenobi.png/250px-Ben_Kenobi.png',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Ben_Kenobi.png/250px-Ben_Kenobi.png',
         fighters: [
           {
             id: 'obi-wan-kenobi',
             name: 'Obi-Wan Kenobi',
             title: 'Jedi Master',
-            description: 'Serene master of Soresu. Patient, methodical, and always with the high ground. Defence impenetrable.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Ben_Kenobi.png/250px-Ben_Kenobi.png',
+            description:
+              'Serene master of Soresu. Patient, methodical, and always with the high ground. Defence impenetrable.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/3/32/Ben_Kenobi.png/250px-Ben_Kenobi.png',
             stats: { strength: 7, agility: 8, power: 9 },
           },
           {
             id: 'mace-windu',
             name: 'Mace Windu',
             title: 'Council Member',
-            description: 'The only master of Vaapad. His purple blade channels the dark side into raw combat mastery.',
+            description:
+              'The only master of Vaapad. His purple blade channels the dark side into raw combat mastery.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/b/bf/Mace_Windu.png',
             stats: { strength: 8, agility: 9, power: 9 },
           },
@@ -133,7 +156,8 @@ export const fightersData: UniverseDto[] = [
             id: 'yoda',
             name: 'Yoda',
             title: 'Grand Master',
-            description: 'Nine centuries of wisdom. Size matters not. His speed and Force mastery defy all expectation.',
+            description:
+              'Nine centuries of wisdom. Size matters not. His speed and Force mastery defy all expectation.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/9/9b/Yoda_Empire_Strikes_Back.png',
             stats: { strength: 4, agility: 10, power: 10 },
           },
@@ -143,21 +167,25 @@ export const fightersData: UniverseDto[] = [
         id: 'sith',
         title: 'Sith',
         subtitle: 'Dark Side',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Darth_Vader_-_2007_Disney_Weekends.jpg/250px-Darth_Vader_-_2007_Disney_Weekends.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Darth_Vader_-_2007_Disney_Weekends.jpg/250px-Darth_Vader_-_2007_Disney_Weekends.jpg',
         fighters: [
           {
             id: 'darth-vader',
             name: 'Darth Vader',
             title: 'Dark Lord of the Sith',
-            description: 'Immovable. Relentless. His Force choke is as feared as his crimson blade. Inevitable.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Darth_Vader_-_2007_Disney_Weekends.jpg/250px-Darth_Vader_-_2007_Disney_Weekends.jpg',
+            description:
+              'Immovable. Relentless. His Force choke is as feared as his crimson blade. Inevitable.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Darth_Vader_-_2007_Disney_Weekends.jpg/250px-Darth_Vader_-_2007_Disney_Weekends.jpg',
             stats: { strength: 10, agility: 6, power: 10 },
           },
           {
             id: 'darth-maul',
             name: 'Darth Maul',
             title: 'Sith Apprentice',
-            description: 'Dual-bladed acrobatic fury. Survived being cut in half by sheer hatred. Trained as a weapon since birth.',
+            description:
+              'Dual-bladed acrobatic fury. Survived being cut in half by sheer hatred. Trained as a weapon since birth.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/b/bb/MaulStarWars.jpg',
             stats: { strength: 7, agility: 10, power: 8 },
           },
@@ -167,21 +195,24 @@ export const fightersData: UniverseDto[] = [
         id: 'mandalorian',
         title: 'Mandalorian',
         subtitle: 'Warriors of Mandalore',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/TheMandalorian.jpg/250px-TheMandalorian.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/TheMandalorian.jpg/250px-TheMandalorian.jpg',
         fighters: [
           {
             id: 'din-djarin',
             name: 'Din Djarin',
             title: 'The Mandalorian',
             description: 'Beskar steel. Whistling birds. Jetpack. This is the way.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/TheMandalorian.jpg/250px-TheMandalorian.jpg',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/a/a1/TheMandalorian.jpg/250px-TheMandalorian.jpg',
             stats: { strength: 7, agility: 8, power: 6 },
           },
           {
             id: 'boba-fett',
             name: 'Boba Fett',
             title: 'Bounty Hunter',
-            description: 'The most feared name in the galaxy. No disintegrations — usually. Cloned from the best.',
+            description:
+              'The most feared name in the galaxy. No disintegrations — usually. Cloned from the best.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/3/3e/FettbobaJB.png',
             stats: { strength: 6, agility: 7, power: 7 },
           },
@@ -191,14 +222,17 @@ export const fightersData: UniverseDto[] = [
         id: 'clone-trooper',
         title: 'Clone Trooper',
         subtitle: 'Grand Army',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg/250px-SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg/250px-SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg',
         fighters: [
           {
             id: 'commander-rex',
             name: 'Commander Rex',
             title: '501st Legion',
-            description: 'Loyalty and discipline made flesh. Cut out his own inhibitor chip. Never leaves a soldier behind.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg/250px-SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg',
+            description:
+              'Loyalty and discipline made flesh. Cut out his own inhibitor chip. Never leaves a soldier behind.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg/250px-SDCC_2012_-_Clone_Troopers_%287567335018%29.jpg',
             stats: { strength: 7, agility: 7, power: 6 },
           },
         ],
@@ -213,22 +247,27 @@ export const fightersData: UniverseDto[] = [
         id: 'wizard',
         title: 'Wizard',
         subtitle: 'Order of Istari',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg/250px-Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg/250px-Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg',
         fighters: [
           {
             id: 'gandalf-the-white',
             name: 'Gandalf the White',
             title: 'Maia of Manwë',
-            description: 'A Maia spirit in mortal form. Returns from death stronger. Carries Narya, ring of fire.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg/250px-Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg',
+            description:
+              'A Maia spirit in mortal form. Returns from death stronger. Carries Narya, ring of fire.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/b/bd/Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg/250px-Gandalf_from_The_Trolls_are_Turned_to_Stone_-_J.R.R_Tolkien.jpg',
             stats: { strength: 6, agility: 5, power: 10 },
           },
           {
             id: 'saruman',
             name: 'Saruman',
             title: 'Head of the Order',
-            description: 'Voice alone can bend minds. His mastery of Orthanc and Uruk-hai makes him a force of cunning ruin.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Christopher_Lee_as_Saruman_LOTR.jpg/250px-Christopher_Lee_as_Saruman_LOTR.jpg',
+            description:
+              'Voice alone can bend minds. His mastery of Orthanc and Uruk-hai makes him a force of cunning ruin.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/a/aa/Christopher_Lee_as_Saruman_LOTR.jpg/250px-Christopher_Lee_as_Saruman_LOTR.jpg',
             stats: { strength: 5, agility: 4, power: 10 },
           },
         ],
@@ -237,22 +276,27 @@ export const fightersData: UniverseDto[] = [
         id: 'ranger',
         title: 'Ranger',
         subtitle: 'Dúnedain',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Viggo_Mortensen_B_%282020%29.jpg/250px-Viggo_Mortensen_B_%282020%29.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Viggo_Mortensen_B_%282020%29.jpg/250px-Viggo_Mortensen_B_%282020%29.jpg',
         fighters: [
           {
             id: 'aragorn',
             name: 'Aragorn',
             title: 'Heir of Isildur',
-            description: 'Heir of Isildur, ranger, king. Fights with the strength of Númenor. The dead march at his command.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Viggo_Mortensen_B_%282020%29.jpg/250px-Viggo_Mortensen_B_%282020%29.jpg',
+            description:
+              'Heir of Isildur, ranger, king. Fights with the strength of Númenor. The dead march at his command.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Viggo_Mortensen_B_%282020%29.jpg/250px-Viggo_Mortensen_B_%282020%29.jpg',
             stats: { strength: 9, agility: 8, power: 8 },
           },
           {
             id: 'legolas',
             name: 'Legolas',
             title: 'Prince of Mirkwood',
-            description: 'A thousand arrows, never a miss. Runs on snow. Counts horses while you blink.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/250px-Legolas600ppx.jpg',
+            description:
+              'A thousand arrows, never a miss. Runs on snow. Counts horses while you blink.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/250px-Legolas600ppx.jpg',
             stats: { strength: 6, agility: 10, power: 7 },
           },
         ],
@@ -261,14 +305,17 @@ export const fightersData: UniverseDto[] = [
         id: 'elf-warrior',
         title: 'Elf Warrior',
         subtitle: 'Firstborn',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/250px-Legolas600ppx.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/2/2b/Legolas600ppx.jpg/250px-Legolas600ppx.jpg',
         fighters: [
           {
             id: 'glorfindel',
             name: 'Glorfindel',
             title: "Elrond's House",
-            description: 'Slew a Balrog alone and was reborn to fight again. Among the mightiest elves ever to draw breath.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Fall_of_Turgon%27s_Tower_cropped.jpg/250px-The_Fall_of_Turgon%27s_Tower_cropped.jpg',
+            description:
+              'Slew a Balrog alone and was reborn to fight again. Among the mightiest elves ever to draw breath.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/The_Fall_of_Turgon%27s_Tower_cropped.jpg/250px-The_Fall_of_Turgon%27s_Tower_cropped.jpg',
             stats: { strength: 9, agility: 9, power: 9 },
           },
         ],
@@ -283,7 +330,8 @@ export const fightersData: UniverseDto[] = [
             id: 'witch-king-of-angmar',
             name: 'Witch-king of Angmar',
             title: 'Lord of the Nazgûl',
-            description: 'No living man can kill him — and none did. His presence alone dissolves courage.',
+            description:
+              'No living man can kill him — and none did. His presence alone dissolves courage.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/a/a0/Nazgul.PNG',
             stats: { strength: 9, agility: 5, power: 9 },
           },
@@ -299,22 +347,27 @@ export const fightersData: UniverseDto[] = [
         id: 'fremen',
         title: 'Fremen',
         subtitle: 'Desert Warriors',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg/250px-Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg/250px-Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg',
         fighters: [
           {
             id: 'paul-muaddib',
             name: "Paul Muad'Dib",
             title: 'Lisan al-Gaib',
-            description: 'Prescient warrior-prophet. Wields a Crysknife with lethal precision. His name is a killing word.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Timoth%C3%A9e_Chalamet_as_Paul_Atreides_%28Dune_2021%29.jpg/250px-Timoth%C3%A9e_Chalamet_as_Paul_Atreides_%28Dune_2021%29.jpg',
+            description:
+              'Prescient warrior-prophet. Wields a Crysknife with lethal precision. His name is a killing word.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/f/ff/Timoth%C3%A9e_Chalamet_as_Paul_Atreides_%28Dune_2021%29.jpg/250px-Timoth%C3%A9e_Chalamet_as_Paul_Atreides_%28Dune_2021%29.jpg',
             stats: { strength: 8, agility: 9, power: 10 },
           },
           {
             id: 'chani',
             name: 'Chani',
             title: 'Fremen Naib',
-            description: 'Born under twin moons. Her blade never hesitates; the desert is her armour.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg/250px-Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg',
+            description:
+              'Born under twin moons. Her blade never hesitates; the desert is her armour.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/d/d7/Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg/250px-Fremen_%28Chani_and_Stilgar%29_in_stillsuits-Dune_%282021%29.jpg',
             stats: { strength: 7, agility: 10, power: 7 },
           },
         ],
@@ -323,14 +376,17 @@ export const fightersData: UniverseDto[] = [
         id: 'bene-gesserit',
         title: 'Bene Gesserit',
         subtitle: 'Sisterhood',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Mohiam%2BBeneGesserit-1984.jpg/250px-Mohiam%2BBeneGesserit-1984.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/0/09/Mohiam%2BBeneGesserit-1984.jpg/250px-Mohiam%2BBeneGesserit-1984.jpg',
         fighters: [
           {
             id: 'lady-jessica',
             name: 'Lady Jessica',
             title: 'Reverend Mother',
-            description: 'Wields the Voice. Masters Prana-bindu body control. Trained her son to be a god.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Lady_Jessica_-_Rebecca_Ferguson_%282021%29.png/250px-Lady_Jessica_-_Rebecca_Ferguson_%282021%29.png',
+            description:
+              'Wields the Voice. Masters Prana-bindu body control. Trained her son to be a god.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/b/b6/Lady_Jessica_-_Rebecca_Ferguson_%282021%29.png/250px-Lady_Jessica_-_Rebecca_Ferguson_%282021%29.png',
             stats: { strength: 6, agility: 9, power: 9 },
           },
         ],
@@ -345,8 +401,10 @@ export const fightersData: UniverseDto[] = [
             id: 'nefuds-elite',
             name: "Nefud's Elite",
             title: 'Imperial Guard',
-            description: 'Trained on Salusa Secundus. One Sardaukar equals ten regular soldiers in open combat.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/e/e5/Imperial_tableau-Dune_2000.jpg',
+            description:
+              'Trained on Salusa Secundus. One Sardaukar equals ten regular soldiers in open combat.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/e/e5/Imperial_tableau-Dune_2000.jpg',
             stats: { strength: 9, agility: 7, power: 7 },
           },
         ],
@@ -361,7 +419,8 @@ export const fightersData: UniverseDto[] = [
             id: 'thufir-hawat',
             name: 'Thufir Hawat',
             title: 'Master of Assassins',
-            description: 'Tactical precision elevated to art. Calculates outcomes faster than machine logic.',
+            description:
+              'Tactical precision elevated to art. Calculates outcomes faster than machine logic.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/d/d2/Dune_%282021%29_cast.jpg',
             stats: { strength: 5, agility: 6, power: 8 },
           },
@@ -383,7 +442,8 @@ export const fightersData: UniverseDto[] = [
             id: 'thor-odinson',
             name: 'Thor Odinson',
             title: 'God of Thunder',
-            description: 'Mjolnir. Lightning. Immortality. A genuine Asgardian god who has fought for 1,500 years. Worthy.',
+            description:
+              'Mjolnir. Lightning. Immortality. A genuine Asgardian god who has fought for 1,500 years. Worthy.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/1/1a/Thor_%28Marvel_Comics%29.png',
             stats: { strength: 10, agility: 7, power: 10 },
           },
@@ -399,8 +459,10 @@ export const fightersData: UniverseDto[] = [
             id: 'natasha-romanoff',
             name: 'Natasha Romanoff',
             title: 'Black Widow',
-            description: 'No superpowers — just decades of training and the will to always show up.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/3/37/Natasha_Romanova_incarnations.jpg',
+            description:
+              'No superpowers — just decades of training and the will to always show up.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/3/37/Natasha_Romanova_incarnations.jpg',
             stats: { strength: 6, agility: 10, power: 6 },
           },
         ],
@@ -415,8 +477,10 @@ export const fightersData: UniverseDto[] = [
             id: 'thanos',
             name: 'Thanos',
             title: 'The Mad Titan',
-            description: 'Even without stones, a match for nearly any hero. His plan was perfect. Inevitable.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/b/b7/Thanos_%28Infobox_image%29.png',
+            description:
+              'Even without stones, a match for nearly any hero. His plan was perfect. Inevitable.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/b/b7/Thanos_%28Infobox_image%29.png',
             stats: { strength: 10, agility: 5, power: 10 },
           },
         ],
@@ -425,14 +489,17 @@ export const fightersData: UniverseDto[] = [
         id: 'guardian',
         title: 'Guardian',
         subtitle: 'Guardians of Galaxy',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Gamora-cover.jpg/250px-Gamora-cover.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Gamora-cover.jpg/250px-Gamora-cover.jpg',
         fighters: [
           {
             id: 'gamora',
             name: 'Gamora',
             title: 'Deadliest Woman Alive',
-            description: 'Surgically enhanced assassin raised by Thanos himself. Knows every weakness in the galaxy.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Gamora-cover.jpg/250px-Gamora-cover.jpg',
+            description:
+              'Surgically enhanced assassin raised by Thanos himself. Knows every weakness in the galaxy.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/0/08/Gamora-cover.jpg/250px-Gamora-cover.jpg',
             stats: { strength: 7, agility: 9, power: 7 },
           },
         ],
@@ -441,21 +508,25 @@ export const fightersData: UniverseDto[] = [
         id: 'x-men',
         title: 'X-Men',
         subtitle: 'Mutant Brotherhood',
-        imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Wolverine_%28circa_2024%29.jpg/250px-Wolverine_%28circa_2024%29.jpg',
+        imageUrl:
+          'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Wolverine_%28circa_2024%29.jpg/250px-Wolverine_%28circa_2024%29.jpg',
         fighters: [
           {
             id: 'wolverine',
             name: 'Wolverine',
             title: 'Weapon X',
-            description: 'Adamantium skeleton and claws. Regeneration that has kept him alive for 200 years. Berserker rage.',
-            imageUrl: 'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Wolverine_%28circa_2024%29.jpg/250px-Wolverine_%28circa_2024%29.jpg',
+            description:
+              'Adamantium skeleton and claws. Regeneration that has kept him alive for 200 years. Berserker rage.',
+            imageUrl:
+              'https://upload.wikimedia.org/wikipedia/en/thumb/d/d3/Wolverine_%28circa_2024%29.jpg/250px-Wolverine_%28circa_2024%29.jpg',
             stats: { strength: 8, agility: 8, power: 9 },
           },
           {
             id: 'storm',
             name: 'Storm',
             title: 'Weather Witch',
-            description: 'Controls weather on a global scale. Omega-level mutant. Can suffocate you in a vacuum.',
+            description:
+              'Controls weather on a global scale. Omega-level mutant. Can suffocate you in a vacuum.',
             imageUrl: 'https://upload.wikimedia.org/wikipedia/en/3/34/Storm_%28Ororo_Munroe%29.png',
             stats: { strength: 5, agility: 8, power: 10 },
           },
