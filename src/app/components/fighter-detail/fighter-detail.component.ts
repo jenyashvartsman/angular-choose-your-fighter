@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, computed, input, output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, computed, input, output, signal } from '@angular/core';
 
 import { FighterDto } from '../../dtos/fighter.dto';
 
@@ -12,6 +12,8 @@ import { FighterDto } from '../../dtos/fighter.dto';
 export class FighterDetailComponent {
   readonly fighter = input.required<FighterDto>();
   readonly close = output<void>();
+
+  protected readonly imgError = signal(false);
 
   protected readonly stats = computed(() => {
     const { strength, agility, power } = this.fighter().stats;

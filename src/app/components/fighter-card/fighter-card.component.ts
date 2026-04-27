@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, input, output } from '@angular/core';
+import { ChangeDetectionStrategy, Component, input, output, signal } from '@angular/core';
 
 import { FighterDto } from '../../dtos/fighter.dto';
 
@@ -22,4 +22,6 @@ export class FighterCardComponent {
   readonly fighter = input.required<FighterDto>();
   readonly selected = input.required<boolean>();
   readonly select = output<void>();
+
+  protected readonly imgError = signal(false);
 }

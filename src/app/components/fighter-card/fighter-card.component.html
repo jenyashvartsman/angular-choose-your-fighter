@@ -1,7 +1,11 @@
 <div class="fighter-card__image" aria-hidden="true">
-  <div class="ph">
-    <span class="ph__label">{{ fighter().name }}<br />portrait</span>
-  </div>
+  @if (fighter().imageUrl && !imgError()) {
+    <img class="fighter-card__img" [src]="fighter().imageUrl" [alt]="fighter().name" (error)="imgError.set(true)" />
+  } @else {
+    <div class="ph">
+      <span class="ph__label">{{ fighter().name }}<br />portrait</span>
+    </div>
+  }
 </div>
 <div class="fighter-card__body">
   <div class="fighter-card__name">{{ fighter().name }}</div>

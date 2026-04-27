@@ -28,9 +28,13 @@
           (click)="store.selectType(type.id)"
         >
           <div class="type-card__thumb" aria-hidden="true">
-            <div class="ph">
-              <span class="ph__label">{{ type.title.split(' ')[0] }}</span>
-            </div>
+            @if (type.imageUrl && !imgErrors().has(type.id)) {
+              <img class="type-card__img" [src]="type.imageUrl" [alt]="type.title" (error)="onImgError(type.id)" />
+            } @else {
+              <div class="ph">
+                <span class="ph__label">{{ type.title.split(' ')[0] }}</span>
+              </div>
+            }
           </div>
           <div class="type-card__info">
             <div class="type-card__name">{{ type.title }}</div>

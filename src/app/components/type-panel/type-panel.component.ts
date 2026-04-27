@@ -1,4 +1,4 @@
-import { ChangeDetectionStrategy, Component, inject } from '@angular/core';
+import { ChangeDetectionStrategy, Component, inject, signal } from '@angular/core';
 
 import { FighterStore } from '../../store/fighter.store';
 
@@ -10,4 +10,9 @@ import { FighterStore } from '../../store/fighter.store';
 })
 export class TypePanelComponent {
   protected readonly store = inject(FighterStore);
+  protected readonly imgErrors = signal(new Set<string>());
+
+  protected onImgError(typeId: string): void {
+    this.imgErrors.update(s => new Set([...s, typeId]));
+  }
 }

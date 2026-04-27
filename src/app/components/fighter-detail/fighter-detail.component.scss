@@ -32,6 +32,13 @@
   overflow: hidden;
 }
 
+.fighter-detail__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .fighter-detail__info {
   padding: 18px 22px;
   display: flex;

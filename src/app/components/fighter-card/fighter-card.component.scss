@@ -31,10 +31,18 @@
   aspect-ratio: 4 / 3;
   overflow: hidden;
   border-bottom: 1px solid var(--border);
+  position: relative;
 
   :host(.fighter-card--selected) & {
     border-color: var(--accent);
   }
+}
+
+.fighter-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .fighter-card__body {

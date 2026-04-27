@@ -1,8 +1,12 @@
 <div class="fighter-detail__image-col">
   <div class="fighter-detail__image" aria-hidden="true">
-    <div class="ph">
-      <span class="ph__label">{{ fighter().name }}<br />portrait</span>
-    </div>
+    @if (fighter().imageUrl && !imgError()) {
+      <img class="fighter-detail__img" [src]="fighter().imageUrl" [alt]="fighter().name" (error)="imgError.set(true)" />
+    } @else {
+      <div class="ph">
+        <span class="ph__label">{{ fighter().name }}<br />portrait</span>
+      </div>
+    }
   </div>
 </div>
 
