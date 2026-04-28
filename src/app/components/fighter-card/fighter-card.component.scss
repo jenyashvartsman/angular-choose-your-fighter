@@ -52,7 +52,7 @@
 }
 
 .fighter-card__name {
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   color: var(--text);
   line-height: 1.2;
@@ -65,7 +65,7 @@
 
 .fighter-card__subtitle {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 0.75rem;
   color: var(--muted);
 
   :host(.fighter-card--selected) & {

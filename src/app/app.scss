@@ -16,3 +16,45 @@
     min-height: 0;
   }
 }
+
+@media screen and (max-width: 740px) {
+  .app {
+    &__body {
+      flex-direction: column;
+      overflow: auto;
+    }
+
+    ::ng-deep .type-panel {
+      width: 100%;
+      min-height: 200px;
+    }
+
+    ::ng-deep {
+      .cta-bar {
+        flex-direction: column;
+
+        &__summary {
+          display: flex;
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .app {
+    ::ng-deep .fighter-detail {
+      grid-template-columns: 1fr;
+
+      &__image {
+        height: 280px;
+      }
+
+      &__image-col {
+        border-right: none;
+        border-bottom: 1px solid var(--accent);
+      }
+    }
+  }
+}

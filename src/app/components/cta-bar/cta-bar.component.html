@@ -2,19 +2,19 @@
   <div class="cta-bar__summary" aria-live="polite">
     @if (store.selectedFighter(); as fighter) {
       <span>{{ store.selectedUniverse()?.title }}</span>
-      &nbsp;·&nbsp;
+      <span>&nbsp;·&nbsp;</span>
       <span>{{ store.selectedType()?.title }}</span>
-      &nbsp;·&nbsp;
+      <span>&nbsp;·&nbsp;</span>
       <span>{{ fighter.name }}</span>
     } @else if (store.selectedType(); as type) {
       <span>{{ store.selectedUniverse()?.title }}</span>
-      &nbsp;·&nbsp;
+      <span>&nbsp;·&nbsp;</span>
       <span>{{ type.title }}</span>
-      &nbsp;·&nbsp;
+      <span>&nbsp;·&nbsp;</span>
       <span class="cta-bar__summary-dim">select fighter</span>
     } @else if (store.selectedUniverse(); as universe) {
       <span>{{ universe.title }}</span>
-      &nbsp;·&nbsp;
+      <span>&nbsp;·&nbsp;</span>
       <span class="cta-bar__summary-dim">select type · fighter</span>
     } @else {
       <span class="cta-bar__summary-dim">no fighter selected</span>

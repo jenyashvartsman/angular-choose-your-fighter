@@ -1,5 +1,5 @@
 .type-panel {
-  width: 260px;
+  width: 340px;
   flex-shrink: 0;
   background: var(--bg2);
   border-right: 1px solid var(--border);
@@ -117,8 +117,8 @@
   }
 
   &__thumb {
-    width: 40px;
-    height: 40px;
+    width: 52px;
+    height: 52px;
     border-radius: 6px;
     overflow: hidden;
     border: 1px solid var(--border);
@@ -142,7 +142,7 @@
   }
 
   &__name {
-    font-size: 15px;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--text);
     white-space: nowrap;
@@ -156,7 +156,7 @@
 
   &__subtitle {
     font-family: var(--mono);
-    font-size: 10px;
+    font-size: 0.75rem;
     color: var(--muted);
 
     .type-card--selected & {
